@@ -4,7 +4,8 @@
   "description": "Personal website hosted on the Xi3 X5a Piston",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
     "express-generator": "^4.14.0",
     "express-session": "^1.14.2",
     "mongojs": "^2.4.0",
-    "mongoose": "^4.7.3"
+    "mongoose": "^4.7.3",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0"
   }
 }
