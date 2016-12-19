@@ -1,0 +1,27 @@
+{
+  "name": "wjrm",
+  "version": "1.0.0",
+  "description": "Personal website hosted on the Xi3 X5a Piston",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjrivera/wjrm.git"
+  },
+  "author": "William Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjrivera/wjrm/issues"
+  },
+  "homepage": "https://github.com/wjrivera/wjrm#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-generator": "^4.14.0",
+    "express-session": "^1.14.2",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.7.3"
+  }
+}
